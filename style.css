@@ -1,0 +1,60 @@
+    
+    body {
+        background-color: #e5e5e5;
+        padding: 3%;
+        
+    
+    }
+
+    .meu-nome {
+        font-family: 'Open Sans',sans-serif;
+        color: #7A7978;
+        text-align: center;
+
+    }
+    h2 {
+        font-family: 'Open Sans',sans-serif;
+        color: #7A7978;
+        
+
+    }
+
+    .descricao {
+        font-family: 'Open Sans';
+        color: #7A7978;
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        
+        
+    }
+
+    .style-list{
+        font-family: 'Open Sans';
+        font-size: 20px;
+        color: #7A7978;
+        }
+
+    #foto-thiago {
+        border-radius: 3%;
+        float: left;
+        padding: 20px;
+        background-color: mediumaquamarine;
+        
+        }   
+        
+    .image-container{
+        height: 330px;
+        position: relative;
+    }   
+    
+    ul li:nth-child(odd){
+        background-color: mediumaquamarine;
+
+    }
+
+    div {
+        
+    }    
+    
+    
