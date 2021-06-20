@@ -35,6 +35,21 @@
         color: #7A7978;
         }
 
+    .button{
+        color: #fff;
+        background-color: mediumaquamarine;
+        font-family: 'Open Sans';
+        padding: 15px 30px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        }    
+    .button:hover{
+        background-color: #7A7978;;
+        
+    }    
+
     #foto-thiago {
         border-radius: 3%;
         float: left;
