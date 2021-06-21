@@ -46,10 +46,10 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 16px;
+        box-shadow: 0px 5px 10px #7A7978
         }    
     .button:hover{
-        background-color: #7A7978;;
-        
+        background-color: #7A7978; 
     }    
 
     #foto-thiago {
