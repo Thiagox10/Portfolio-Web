@@ -10,8 +10,10 @@
         font-family: 'Open Sans',sans-serif;
         color: #7A7978;
         text-align: center;
+        font-weight: 600;
 
     }
+
     h2 {
         font-family: 'Open Sans',sans-serif;
         color: #7A7978;
@@ -22,9 +24,9 @@
     .descricao {
         font-family: 'Open Sans';
         color: #7A7978;
-        position: absolute;
-        top: 30%;
-        right: 30%;
+        position: relative;
+        top: 35%;
+        left: 50px;
         
         
     }
@@ -65,7 +67,9 @@
     
     ul li:nth-child(odd){
         background-color: mediumaquamarine;
-
+    }
+    ul li:hover{
+        background-color: #fff;
     }
 
     div {
