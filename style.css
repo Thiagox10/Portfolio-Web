@@ -1,7 +1,7 @@
     
     body {
         background-color: #e5e5e5;
-        padding: 3%;
+        padding: 10px;
         
     
     }
@@ -24,9 +24,9 @@
     .descricao {
         font-family: 'Open Sans';
         color: #7A7978;
-        position: relative;
-        top: 35%;
-        left: 50px;
+        /* position: relative; */
+        /* top: 35%; */
+
         
         
     }
@@ -46,7 +46,8 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 16px;
-        box-shadow: 0px 5px 10px #7A7978
+        box-shadow: 0px 5px 10px #7A7978;
+        margin: 5px;
         }    
     .button:hover{
         background-color: #7A7978; 
@@ -54,16 +55,29 @@
 
     #foto-thiago {
         border-radius: 3%;
-        float: left;
-        padding: 20px;
+        /* float: left; */
+        padding: 16px;
         background-color: mediumaquamarine;
         
-        }   
+
+    }  
+    .social-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content:space-between;
+        
+       
+    } 
         
     .image-container{
         height: 330px;
-        position: relative;
+        display: flex;
+        justify-content: space-between;
+        /* position: relative; */
+        /* margin-right: 200px; */
     }   
+
     
     ul li:nth-child(odd){
         background-color: mediumaquamarine;
@@ -72,8 +86,11 @@
         background-color: #fff;
     }
 
-    div {
-        
-    }    
+    .rodape {
+        font-family: 'Open Sans',sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
     
     
