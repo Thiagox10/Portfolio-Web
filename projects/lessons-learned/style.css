@@ -1,0 +1,115 @@
+        body{
+            background-color: rgb(253, 251, 251);
+            font-family: Montserrat;
+        }
+
+        .nav li{
+        color: rgb(253, 251, 251);
+        display: inline-block;
+        
+            
+        }
+        #table, th, td{
+            border: 1px solid black;
+            width: 40%;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            margin-left: 350px;
+
+        }
+
+        #cabecalho{
+            position: fixed;
+            top: 0;
+            background-color: #353535;
+            width: 100%;
+            }
+
+        #titulo{
+            text-align: center;
+            font-family: Montserrat;
+            color: rgb(253, 251, 251);
+            
+        }
+
+        #minha_foto{
+        border-radius: 3%;
+        width: 300px;
+        
+
+        }
+
+        article{
+            display: inline-block;
+            width: 50%;
+            line-height: 1,5;
+            vertical-align: top;
+        }
+
+        aside{
+            border: 1px solid black;
+            width: 20%;
+            line-height: 1,5;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .lado-esquerdo{
+            border: 1px solid black;
+            display:inline-block;
+            
+            vertical-align: top;
+
+        }
+
+        .lado-direito{
+            border: 1px solid black;
+            display: inline-block;
+            width: 25%;
+            
+
+        }
+
+
+        #licoes_aprendidas{
+            /*border: 1px solid black;*/
+            display: inline-block;
+    
+        }
+
+        #licoes_a_aprender{
+            /*border: 1px solid black;*/
+            display: inline-block;
+            
+        }
+
+        #rodape{
+            background-color:#353535;
+            padding: 5px;
+            margin-top: 10px;
+            bottom: 0;
+        
+            
+            
+        }
+
+        #rodape-direitos{
+            color: rgb(253, 251, 251);
+            font-size: 13px;
+        }
+
+        #link{
+            background-color: #353535;
+            color: rgb(253, 251, 251);
+            padding: 13px;
+            margin: 2%;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            
+            
+        }
+        #link:hover{
+            background-color: indigo;
+            
+        }
