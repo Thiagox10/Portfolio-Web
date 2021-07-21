@@ -24,11 +24,9 @@
     .descricao {
         font-family: 'Open Sans';
         color: #7A7978;
-        /* position: relative; */
-        /* top: 35%; */
-
-        
-        
+        padding: 50px;
+        margin: 25px 100px;
+    
     }
 
     .style-list{
@@ -66,16 +64,14 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-content:space-between;
-        
-       
+        text-align: center;
     } 
         
     .image-container{
         height: 330px;
         display: flex;
-        justify-content: space-between;
-        /* position: relative; */
-        /* margin-right: 200px; */
+        justify-content: flex-start;
+        
     }   
 
     

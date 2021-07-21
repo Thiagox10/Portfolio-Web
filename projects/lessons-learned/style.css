@@ -14,8 +14,8 @@
             width: 40%;
             text-align: center;
             padding: 10px 10px 10px 10px;
-            margin-left: 350px;
-
+            
+            margin: 50px auto;
         }
 
         #cabecalho{
@@ -29,14 +29,15 @@
             text-align: center;
             font-family: Montserrat;
             color: rgb(253, 251, 251);
-            
         }
 
-        #minha_foto{
+        .foto-container{
+            margin-top: 210px;
+        }
+
+        #minha-foto{
         border-radius: 3%;
         width: 300px;
-        
-
         }
 
         article{
@@ -47,7 +48,7 @@
         }
 
         aside{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             width: 20%;
             line-height: 1,5;
             display: inline-block;
@@ -55,42 +56,33 @@
         }
 
         .lado-esquerdo{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             display:inline-block;
-            
             vertical-align: top;
-
         }
 
         .lado-direito{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             display: inline-block;
             width: 25%;
-            
-
         }
 
 
         #licoes_aprendidas{
             /*border: 1px solid black;*/
             display: inline-block;
-    
         }
 
         #licoes_a_aprender{
             /*border: 1px solid black;*/
             display: inline-block;
-            
         }
 
         #rodape{
             background-color:#353535;
             padding: 5px;
-            margin-top: 10px;
+            margin-top: 50px;
             bottom: 0;
-        
-            
-            
         }
 
         #rodape-direitos{
@@ -102,10 +94,10 @@
             background-color: #353535;
             color: rgb(253, 251, 251);
             padding: 13px;
-            margin: 2%;
+            margin: 100px 10px;
             border-radius: 5px;
             text-decoration: none;
-            display: inline-block;
+            /* display: inline-block; */
             
             
         }
