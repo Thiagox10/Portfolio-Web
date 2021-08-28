@@ -1,4 +1,4 @@
-.container{
+.container-fluid{
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -102,5 +102,3 @@ footer {
   background-color:#faf9f9;
   padding: 10px;
 }
-
-
