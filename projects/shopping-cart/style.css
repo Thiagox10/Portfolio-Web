@@ -96,4 +96,11 @@ main {
   font-weight: bold;
 }
 
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color:#faf9f9;
+  padding: 10px;
+}
+
 
