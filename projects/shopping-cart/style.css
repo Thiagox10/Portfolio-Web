@@ -92,5 +92,8 @@ main {
 .logo {
   cursor: pointer;
 }
+.total {
+  font-weight: bold;
+}
 
 
