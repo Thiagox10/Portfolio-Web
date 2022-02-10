@@ -17,7 +17,7 @@ function totalCart(price) {
 //  console.log(typeof price);
 //  console.log(total);
 total = total + price
- totalElement.innerText = total.toFixed(2)
+ totalElement.innerText = total.toFixed(2);
  localStorage.setItem('total', total);
 
 //  console.log(totalElement);
@@ -26,10 +26,10 @@ total = total + price
 function totalCartSub(event) {
   const valor = parseFloat(event.target.innerText.split(`$`)[1]);
   // let total = parseFloat(totalElement.innerText);
-	const totalStorage = totalElement.innerText;
-	const result = totalStorage - valor
+  const totalStorage = totalElement.innerText;
+  const result = totalStorage - valor
   totalElement.innerText = result.toFixed(2);
-	localStorage.setItem('total', result);
+  localStorage.setItem('total', result);
 }
 
 function clearCart() {
@@ -138,24 +138,31 @@ const fetcherPC = (url) => {
 
 function getLocalStorage() {
   olCart.innerHTML = localStorage.getItem('cartItems');
-	totalElement.innerText = localStorage.getItem('total')
-	const listaLi = document.querySelectorAll('.cart__item');
+  const exist = localStorage.getItem('total');
+  console.log(exist);
+    if (exist) {
+      totalElement.innerText = exist;
+    } 
+
+  totalElement.innerText = '0';
+
+  const listaLi = document.querySelectorAll('.cart__item');
   listaLi.forEach((element) => {
-		element.addEventListener('click', cartItemClickListener);
-	})
+    element.addEventListener('click', cartItemClickListener);
+});
 }
 
 button.addEventListener('click', () => {
-	vitrine.innerHTML = '';
-	let API_URL_SEARCH = `https://api.mercadolibre.com/sites/MLB/search?q=${search.value}`
-	fetcherPC(API_URL_SEARCH);
-})
-search.addEventListener('keyup', function(e){
+  vitrine.innerHTML = '';
+  const API_URL_SEARCH = `https://api.mercadolibre.com/sites/MLB/search?q=${search.value}`;
+  fetcherPC(API_URL_SEARCH);
+});
+search.addEventListener('keyup', function (e) {
   let key = e.which || e.keyCode;
   if (key == 13) { // codigo da tecla enter
     vitrine.innerHTML = '';
-	let API_URL_SEARCH = `https://api.mercadolibre.com/sites/MLB/search?q=${search.value}`
-	fetcherPC(API_URL_SEARCH);
+  let API_URL_SEARCH = `https://api.mercadolibre.com/sites/MLB/search?q=${search.value}`;
+  fetcherPC(API_URL_SEARCH);
   }
 });
 
