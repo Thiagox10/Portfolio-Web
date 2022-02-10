@@ -142,9 +142,8 @@ function getLocalStorage() {
   console.log(exist);
     if (exist) {
       totalElement.innerText = exist;
-    } 
+    } else totalElement.innerText = '0';
 
-  totalElement.innerText = '0';
 
   const listaLi = document.querySelectorAll('.cart__item');
   listaLi.forEach((element) => {
