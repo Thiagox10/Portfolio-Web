@@ -1,7 +1,8 @@
-# Thiagox10.github.io
-Primeiro portfólio criado apenas com HTML, CSS
+## Primeiro portfólio criado apenas com HTML, CSS
 
-## Coloquei alguns dos primeiros projetos feitos na trybe na pasta projects sendo possivel acessar pelo link!
+https://thiagox10.github.io/
+
+### Coloquei alguns dos primeiros projetos feitos na trybe na pasta projects sendo possivel acessar pelo link!
 
 ## Lessons Learned 
 https://thiagox10.github.io/projects/lessons-learned/
